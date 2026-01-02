@@ -3314,3 +3314,17 @@ input, select, textarea {
 			}
 
 	}
+
+/*Voronoi Banner*/
+.voronoi-banner {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+}
+
+#voronoi-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
