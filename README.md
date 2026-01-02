@@ -1,12 +1,12 @@
 Tech Used:
-	CSS:
-		Sass
-	Icons:
+	- CSS:
+		- Sass
+	- Icons:
 		Font Awesome (fontawesome.io)
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+	- Other:
+		- jQuery (jquery.com)
+		- Scrollex (github.com/ajlkn/jquery.scrollex)
+		- Responsive Tools (github.com/ajlkn/responsive-tools)
 
 Credits:
 - Read Only by HTML5 UP
