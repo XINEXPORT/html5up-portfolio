@@ -3315,7 +3315,7 @@ input, select, textarea {
 
 	}
 
-/*Voronoi Banner*/
+/* Voronoi Banner */
 .voronoi-banner {
   width: 100%;
   height: 350px;
@@ -3327,4 +3327,39 @@ input, select, textarea {
   display: block;
   width: 100%;
   height: 100%;
+}
+
+/* Dynamic Active Nav Colors */
+#header > nav ul li a.active {
+    transition: background-color 0.3s ease;
+}
+
+/* Disable transition when clicking */
+body.no-transition #header > nav ul li a.active {
+    transition: none !important;
+}
+
+/* Different colors for each section */
+body[data-active-section="one"] #header > nav ul li a.active {
+    background: #ffcbf7; /* Light purple for About */
+}
+
+body[data-active-section="two"] #header > nav ul li a.active {
+    background: #b2f0e4; /* Slightly different purple for Projects */
+}
+
+body[data-active-section="three"] #header > nav ul li a.active {
+    background: #ffe9b9; /* Medium purple for Outreach & Hobbies */
+}
+
+body[data-active-section="four"] #header > nav ul li a.active {
+    background: #b3f3fa; /* Deeper purple for Skills */
+}
+
+body[data-active-section="five"] #header > nav ul li a.active {
+    background: #f65cbb; /* Even deeper for CV */
+}
+
+body[data-active-section="six"] #header > nav ul li a.active {
+    background: #7c3aed; /* Deepest purple for Contact */
 }
