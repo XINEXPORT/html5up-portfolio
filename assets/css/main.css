@@ -3363,3 +3363,22 @@ body[data-active-section="five"] #header > nav ul li a.active {
 body[data-active-section="six"] #header > nav ul li a.active {
     background: #7c3aed; /* Deepest purple for Contact */
 }
+
+ul.tech-pills {
+    list-style: none;
+    padding: 0;
+    margin: 0.5em 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+}
+
+ul.tech-pills li {
+    background-color: transparent;
+    border: 1px solid #3b3b3b55;
+    color: #a49f9f;
+    padding: 0.2em 0.7em;
+    border-radius: 999px;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+}
