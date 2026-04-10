@@ -3364,6 +3364,7 @@ body[data-active-section="six"] #header > nav ul li a.active {
     background: #7c3aed; /* Deepest purple for Contact */
 }
 
+/* Teck Stack pills */
 ul.tech-pills {
     list-style: none;
     padding: 0;
